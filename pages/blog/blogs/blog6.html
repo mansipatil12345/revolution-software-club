@@ -80,17 +80,15 @@
 <!-- Blog post content -->
 <section class="my-5">
   <div class="container">
-    <div class="row">
+    <div class="contain-text">
       <div class="col-lg-8 offset-lg-2">
-        <div class="card my-3">
-          <div class="card-body">
             <!-- Blog post title -->
-            <h1 class="card-title text-center">Strings in C</h1>
+            <h1 class="p1 text-left">Strings in C</h1>
             <!-- Blog post author and date -->
-            <p class="text-center">Written by Shlok Devi</p>
+            <p class="text-left">Shlok Devi</p>
             <!-- Blog post image -->
             <div class="d-flex justify-content-center mb-3">
-              <img src="../blogs/content images/strc.png" alt="cpp image" class="img-fluid">
+              <img src="../blogs/content images/strc.png" alt="str image" class="container-img">
             </div>
             <!-- Blog post content -->
             <p>
@@ -104,23 +102,23 @@
 
             <p>
                 <strong>Declaration:<br></strong>
-                <pre>char string_name[size];</pre>
+                <pre class="fw-bold">char string_name[size];</pre>
             </p>
 
             <p>
                 <strong>Initialization:-</strong>
                 <ul type="circle">
                     <li>Assigning a String Literal without Size<br><br>
-                        <pre>char str[] = "Revolution Software Development Club";</pre>
+                        <pre class="fw-bold">char str[] = "Revolution Software Development Club";</pre>
                     </li>
                     <li>Assigning a String Literal with a Predefined Size.<br>
                         Strings can be assigned with a predefined size. If the required size is n 
                         then the size of string should be n+1 because the we have to account for a extra space for the null character.<br><br>
-                        <pre>char str [25] = "Vishwakarma University";</pre>
+                        <pre class="fw-bold">char str [25] = "Vishwakarma University";</pre>
                     </li>
                     <li>Assigning Character by Character with Size.<br>
                         We can also assign a string character by character. But the end character should be the null character.<br><br>
-                        <pre>char str [8] = { 'S','T','R','I','N','G','S','\0'};</pre>
+                        <pre class="fw-bold">char str [8] = { 'S','T','R','I','N','G','S','\0'};</pre>
                     </li>
                 </ul>
             </p>
@@ -130,26 +128,26 @@
                 <ul type="disc">
                     <li><b>STRLEN: </b>To find the length of the string.<br>
                       <div class="d-flex justify-content-center mb-3">
-                        <img src="../blogs/content images/strlen.jpg" alt="cpp image" width="60%" class="img-fluid">
+                        <img src="../blogs/content images/strlen.jpg" alt="cpp image" width="100%" class="img-fluid">
                       </div>
                     </li>
 
                     <li><b>STRCPY: </b>To copy the string from the source to destination.<br>
                       <div class="d-flex justify-content-center mb-3">
-                        <img src="../blogs/content images/strcpy.jpg" alt="cpp image" width="60%" class="img-fluid">
+                        <img src="../blogs/content images/strcpy.jpg" alt="cpp image" width="100%" class="img-fluid">
                       </div>
                     </li>
 
                     <li><b>STRCAT: </b>To concatenate the string from source to destination.<br>
                       <div class="d-flex justify-content-center mb-3">
-                        <img src="../blogs/content images/strcat.jpg" alt="cpp image" width="60%" class="img-fluid">
+                        <img src="../blogs/content images/strcat.jpg" alt="cpp image" width="100%" class="img-fluid">
                       </div>
                     </li>
 
                     <li><b>STRCMP: </b><br>1. Compares two strings.
                       <br>2. Returns zero if two strings are equal, positive value if str1 is greater and negative value if str2 is greater.<br>
                       <div class="d-flex justify-content-center mb-3">
-                        <img src="../blogs/content images/strcmp.jpg" alt="cpp image" width="60%" class="img-fluid">
+                        <img src="../blogs/content images/strcmp.jpg" alt="cpp image" width="100%" class="img-fluid">
                       </div>
                     </li>
                 </ul>
@@ -163,8 +161,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
 </section>
 
 <!-- Footer -->
